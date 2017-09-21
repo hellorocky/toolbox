@@ -1,0 +1,168 @@
+Failed to read config file: ../conf/gunicorn.conf
+Traceback (most recent call last):
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/app/base.py", line 93, in get_config_from_filename
+    execfile_(filename, cfg, cfg)
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/_compat.py", line 72, in execfile_
+    return six.exec_(code, *args)
+  File "../conf/gunicorn.conf", line 9, in <module>
+    from config import *
+  File "/home/jumpserver/sender/conf/config.py", line 23
+    config = {
+         ^
+IndentationError: expected an indented block
+Failed to read config file: ../conf/gunicorn.conf
+Traceback (most recent call last):
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/app/base.py", line 93, in get_config_from_filename
+    execfile_(filename, cfg, cfg)
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/_compat.py", line 72, in execfile_
+    return six.exec_(code, *args)
+  File "../conf/gunicorn.conf", line 9, in <module>
+    from config import *
+  File "/home/jumpserver/sender/conf/config.py", line 23
+    config = {
+         ^
+IndentationError: expected an indented block
+Failed to read config file: ../conf/gunicorn.conf
+Traceback (most recent call last):
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/app/base.py", line 93, in get_config_from_filename
+    execfile_(filename, cfg, cfg)
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/_compat.py", line 72, in execfile_
+    return six.exec_(code, *args)
+  File "../conf/gunicorn.conf", line 9, in <module>
+    from config import *
+  File "/home/jumpserver/sender/conf/config.py", line 23
+    config = {
+         ^
+IndentationError: expected an indented block
+Failed to read config file: ../conf/gunicorn.conf
+Traceback (most recent call last):
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/app/base.py", line 93, in get_config_from_filename
+    execfile_(filename, cfg, cfg)
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/_compat.py", line 72, in execfile_
+    return six.exec_(code, *args)
+  File "../conf/gunicorn.conf", line 9, in <module>
+    from config import *
+  File "/home/jumpserver/sender/conf/config.py", line 23
+    config = {
+         ^
+IndentationError: expected an indented block
+Failed to read config file: ../conf/gunicorn.conf
+Traceback (most recent call last):
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/app/base.py", line 93, in get_config_from_filename
+    execfile_(filename, cfg, cfg)
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/_compat.py", line 72, in execfile_
+    return six.exec_(code, *args)
+  File "../conf/gunicorn.conf", line 9, in <module>
+    from config import *
+  File "/home/jumpserver/sender/conf/config.py", line 26, in <module>
+    "default": roductionConfig
+NameError: name 'roductionConfig' is not defined
+Failed to read config file: ../conf/gunicorn.conf
+Traceback (most recent call last):
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/app/base.py", line 93, in get_config_from_filename
+    execfile_(filename, cfg, cfg)
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/_compat.py", line 72, in execfile_
+    return six.exec_(code, *args)
+  File "../conf/gunicorn.conf", line 9, in <module>
+    from config import *
+  File "/home/jumpserver/sender/conf/config.py", line 26, in <module>
+    "default": roductionConfig
+NameError: name 'roductionConfig' is not defined
+Failed to read config file: ../conf/gunicorn.conf
+Traceback (most recent call last):
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/app/base.py", line 93, in get_config_from_filename
+    execfile_(filename, cfg, cfg)
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/_compat.py", line 72, in execfile_
+    return six.exec_(code, *args)
+  File "../conf/gunicorn.conf", line 9, in <module>
+    from config import *
+  File "/home/jumpserver/sender/conf/config.py", line 26, in <module>
+    "default": roductionConfig
+NameError: name 'roductionConfig' is not defined
+Failed to read config file: ../conf/gunicorn.conf
+Traceback (most recent call last):
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/app/base.py", line 93, in get_config_from_filename
+    execfile_(filename, cfg, cfg)
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/_compat.py", line 72, in execfile_
+    return six.exec_(code, *args)
+  File "../conf/gunicorn.conf", line 9, in <module>
+    from config import *
+  File "/home/jumpserver/sender/conf/config.py", line 26, in <module>
+    "default": roductionConfig
+NameError: name 'roductionConfig' is not defined
+Failed to read config file: ../conf/gunicorn.conf
+Traceback (most recent call last):
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/app/base.py", line 93, in get_config_from_filename
+    execfile_(filename, cfg, cfg)
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/_compat.py", line 72, in execfile_
+    return six.exec_(code, *args)
+  File "../conf/gunicorn.conf", line 11, in <module>
+    bind = "127.0.0.1:{0}".format(PORT)
+NameError: name 'PORT' is not defined
+Failed to read config file: ../conf/gunicorn.conf
+Traceback (most recent call last):
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/app/base.py", line 93, in get_config_from_filename
+    execfile_(filename, cfg, cfg)
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/_compat.py", line 72, in execfile_
+    return six.exec_(code, *args)
+  File "../conf/gunicorn.conf", line 11, in <module>
+    bind = "127.0.0.1:{0}".format(PORT)
+NameError: name 'PORT' is not defined
+Failed to read config file: ../conf/gunicorn.conf
+Traceback (most recent call last):
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/app/base.py", line 93, in get_config_from_filename
+    execfile_(filename, cfg, cfg)
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/_compat.py", line 72, in execfile_
+    return six.exec_(code, *args)
+  File "../conf/gunicorn.conf", line 11, in <module>
+    bind = "127.0.0.1:{0}".format(PORT)
+NameError: name 'PORT' is not defined
+Failed to read config file: ../conf/gunicorn.conf
+Traceback (most recent call last):
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/app/base.py", line 93, in get_config_from_filename
+    execfile_(filename, cfg, cfg)
+  File "/home/jumpserver/python3/lib/python3.6/site-packages/gunicorn/_compat.py", line 72, in execfile_
+    return six.exec_(code, *args)
+  File "../conf/gunicorn.conf", line 11, in <module>
+    bind = "127.0.0.1:{0}".format(PORT)
+NameError: name 'PORT' is not defined
+
+Error: '../conf/gunicorn.conf' doesn't exist
+
+Error: '../conf/gunicorn.conf' doesn't exist
+
+Error: '../conf/gunicorn.conf' doesn't exist
+
+Error: '../conf/gunicorn.conf' doesn't exist
+Invalid value for config: {'production': <class 'config.ProductionConfig'>, 'development': <class 'config.DevelopmentConfig'>, 'default': <class 'config.ProductionConfig'>}
+
+
+Error: Not a string: {'production': <class 'config.ProductionConfig'>, 'development': <class 'config.DevelopmentConfig'>, 'default': <class 'config.ProductionConfig'>}
+Invalid value for config: {'production': <class 'config.ProductionConfig'>, 'development': <class 'config.DevelopmentConfig'>, 'default': <class 'config.ProductionConfig'>}
+
+
+Error: Not a string: {'production': <class 'config.ProductionConfig'>, 'development': <class 'config.DevelopmentConfig'>, 'default': <class 'config.ProductionConfig'>}
+Invalid value for config: {'production': <class 'config.ProductionConfig'>, 'development': <class 'config.DevelopmentConfig'>, 'default': <class 'config.ProductionConfig'>}
+
+
+Error: Not a string: {'production': <class 'config.ProductionConfig'>, 'development': <class 'config.DevelopmentConfig'>, 'default': <class 'config.ProductionConfig'>}
+Invalid value for config: {'production': <class 'config.ProductionConfig'>, 'development': <class 'config.DevelopmentConfig'>, 'default': <class 'config.ProductionConfig'>}
+
+
+Error: Not a string: {'production': <class 'config.ProductionConfig'>, 'development': <class 'config.DevelopmentConfig'>, 'default': <class 'config.ProductionConfig'>}
+Invalid value for config: {'production': <class 'config.ProductionConfig'>, 'development': <class 'config.DevelopmentConfig'>, 'default': <class 'config.ProductionConfig'>}
+
+
+Error: Not a string: {'production': <class 'config.ProductionConfig'>, 'development': <class 'config.DevelopmentConfig'>, 'default': <class 'config.ProductionConfig'>}
+Invalid value for config: {'production': <class 'config.ProductionConfig'>, 'development': <class 'config.DevelopmentConfig'>, 'default': <class 'config.ProductionConfig'>}
+
+
+Error: Not a string: {'production': <class 'config.ProductionConfig'>, 'development': <class 'config.DevelopmentConfig'>, 'default': <class 'config.ProductionConfig'>}
+Invalid value for config: {'production': <class 'config.ProductionConfig'>, 'development': <class 'config.DevelopmentConfig'>, 'default': <class 'config.ProductionConfig'>}
+
+
+Error: Not a string: {'production': <class 'config.ProductionConfig'>, 'development': <class 'config.DevelopmentConfig'>, 'default': <class 'config.ProductionConfig'>}
+Invalid value for config: {'production': <class 'config.ProductionConfig'>, 'development': <class 'config.DevelopmentConfig'>, 'default': <class 'config.ProductionConfig'>}
+
+
+Error: Not a string: {'production': <class 'config.ProductionConfig'>, 'development': <class 'config.DevelopmentConfig'>, 'default': <class 'config.ProductionConfig'>}
