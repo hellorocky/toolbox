@@ -1,0 +1,28 @@
+#!/usr/bin/env python
+import os
+import sys
+import subprocess
+
+
+def ssh_connect():
+	print('''
+Please select server:
+	1: 141	10.10.20.141	
+	2: yy	123.249.94.160	
+	q: quit
+''')
+	servers = {
+		'1': ('10.10.20.141', 'root'),
+		'2': ('123.249.94.160', 'rocky'),
+	}
+
+	user_input = input(':')
+	if user_input in ["q", "quit", "exit"]:
+		sys.exit()
+	if not user_input in servers.keys():
+		ssh_connect()
+	else:
+		subprocess.run("ssh {0}@{1}".format(servers[user_input][1], servers[user_input][0]), shell=True)
+
+if __name__ == '__main__':
+	ssh_connect()
