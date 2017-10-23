@@ -5,7 +5,7 @@ import os
 base_dir = "/Users/rocky/blog"
 github_base_url = "https://github.com/hellorocky/blog/blob/master/"
 readme = open(os.path.join(base_dir, "readme.md"), "w")
-readme.write("# 我的博客---")
+readme.write("# 我的博客")
 
 for directory in os.scandir(base_dir):
     # 不包含隐藏的目录
