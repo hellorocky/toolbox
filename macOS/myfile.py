@@ -12,8 +12,8 @@
 import sys
 import subprocess
 
-UPLOAD_URL = "https://rockywu.me/up/"
-DOWNLOAD_URL = "https://rockywu.me/down/"
+UPLOAD_URL = "http://rockywu.me/up/"
+DOWNLOAD_URL = "http://rockywu.me/down/"
 
 def run_cmd(cmd):
     p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
