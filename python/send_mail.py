@@ -28,7 +28,7 @@ class Sender:
 
 
 if __name__ == "__main__":
-    receiver = "wu@yixia.com, wu@126.com"
+    receiver = "wu@ia.com, wu@126.com"
     # 邮件内容是HTML文本
     content = """
     <html>
@@ -36,6 +36,6 @@ if __name__ == "__main__":
       </body>
     </html>
     """
-    s = Sender("mo@yixia.com", "smtp.yixia.com", 465, "m") # 发送者的登录信息配置
+    s = Sender("mo@ia.com", "smtp.ia.com", 465, "m") # 发送者的登录信息配置
     s.send("JM", content, receiver) # 邮件内容和标题的配置
 
