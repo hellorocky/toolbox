@@ -2,7 +2,7 @@
 # 博客readme生成脚本!
 import os
 
-base_dir = "/Users/rocky/blog"
+base_dir = "/Users/rocky/self/blog"
 github_base_url = "https://github.com/hellorocky/blog/blob/master/"
 readme = open(os.path.join(base_dir, "readme.md"), "w")
 readme.write("# 我的博客")
