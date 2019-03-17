@@ -40,9 +40,9 @@ def connection(cmd, pwd):
     :param pwd: 密码
     :return:
     """
-    child = pexpect.spawn(cmd, timeout=5)
-    # 第一个和第二个是jumpserver的交互, 第三个是使用密钥的使用没有任何交互的时候使用
-    ret = child.expect([".*assword.*", ".*Opt>", "", pexpect.EOF, pexpect.TIMEOUT], 5)
+    child = pexpect.spawn(cmd, timeout=3)
+
+    ret = child.expect([".*assword.*", ".*Opt>", pexpect.EOF, pexpect.TIMEOUT], 2)
     if ret == 0:
         child.sendline("{0}".format(pwd))
         #ret = child.expect([".*assword.*", ".*Opt>"], 5)
