@@ -3,6 +3,11 @@
 # mode = tty.tcgetattr(self.STDIN_FILENO)
 # termios.error: (25, 'Inappropriate ioctl for device') 
 # 应该直接在终端中执行这个脚本
+import sys
+import fcntl
+import struct
+import termios
+
 import pyotp
 import pexpect
 
@@ -29,6 +34,14 @@ hosts = [
     }
 ]
 
+def getwinsize(): #这个模块主要用于记录登录前的session的窗口大小，不然会发生登录后窗口大小变小的问题
+    if 'TIOCGWINSZ' in dir(termios):
+        TIOCGWINSZ = termios.TIOCGWINSZ
+    else:
+        TIOCGWINSZ = 1074295912
+    s = struct.pack('HHHH', 0, 0, 0, 0)
+    x = fcntl.ioctl(sys.stdout.fileno(), TIOCGWINSZ, s)
+    return struct.unpack('HHHH', x)[0:2]
 
 def connection(cmd, pwd):
     """
@@ -41,7 +54,8 @@ def connection(cmd, pwd):
     :return:
     """
     child = pexpect.spawn(cmd, timeout=3)
-
+    winsize = getwinsize();
+    child.setwinsize(winsize[0], winsize[1])
     ret = child.expect([".*assword.*", ".*Opt>", pexpect.EOF, pexpect.TIMEOUT], 2)
     if ret == 0:
         child.sendline("{0}".format(pwd))
